@@ -28,13 +28,25 @@
           <div class="title">
             Find nearby providers for child birth
           </div>
-        <span>  <input class="annotation-box" id="annotation" placeholder="Enter zipcode">
+        <span>  <input class="zipcode-box" id="zipcode" placeholder="Enter zipcode">
           <button class="button" id="search">Search</button></span>
           <br><br>
           <div class="providers">
             <li>GOOD SAMARITAN MEDICAL CENTER (3.2 mi)</li>
-            <li>SIGNATURE HEALTHCARE BROCKTON HOSPITAL (13.1 mi)</li>
-            <li>RADY CHIDLRENS HOSPITAL (20.5 mi) </li>
+              <ul>
+                <li># claims for normal delivery: <span id="samaritan_num"></span></li>
+                <li># average cost: <span id="samaritan_avg"></span></li>
+              </ul>
+            <li>MEDEXPRESS URGENT CARE PC MASSACHUSETTS (13.1 mi)</li>
+            <ul>
+              <li># claims for normal delivery: <span id="medexpress_num"></span></li>
+              <li># average cost: <span id="medexpress_avg"></span></li>
+            </ul>
+            <li>BERKSHIRE MEDICAL CENTER INC (20.5 mi) </li>
+            <ul>
+              <li># claims for normal delivery: <span id="berkshire_num"></span></li>
+              <li># average cost: <span id="berkshire_avg"></span></li>
+            </ul>
           </div>
         </div>
 
